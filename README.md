@@ -41,5 +41,11 @@ This script automates the extraction of user access data from an internal compan
    - Option 1: `scraped_data.xlsx` (user groups).
    - Options 2 & 3: `User_Details.xlsx` (detailed user info).
 
-### Requirements
-Create a `requirements.txt` with:
+## Usage Notes
+- **Option 1**: Scrapes user group data from paginated tables. Requires manual login.
+- **Option 2**: Extracts detailed user info (e.g., name, email, role) for up to 300 groups. Faster execution.
+- **Option 3**: Same as Option 2 but optimized for >300 groups with longer waits for stability.
+- Internal tool—URL and XPaths are specific to the original portal.
+
+## Status
+Complete – Deployed August 2024
